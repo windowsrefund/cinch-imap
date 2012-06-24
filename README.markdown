@@ -1,10 +1,17 @@
-# Cinch-Imap
+cinch-imap
+==========
 
 The Cinch Imap Plugin. Poll an IMAP mailbox at a defined interval.
 
-## Required Configuration
+Installation
+------------
 
-### :host
+  $ gem install cinch-imap
+
+
+### Required Configuration
+
+#### :host
 The IMAP server
 ### :user
 The user id
