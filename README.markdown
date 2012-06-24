@@ -39,29 +39,27 @@ Commands
 
 Enable/disable IMAP polling
 
-```
-!monitor on/off/start/stop
-```
+    !monitor on/off/start/stop
 
 Display status information to the channel
 
-  !monitor show status
+    !monitor show status
 
 Reset the number of messages seen to 0
 
-  !monitor clear
+    !monitor clear
 
 Set polling interval in seconds. Default is 300.
 
-  !monitor interval [n]
+    !monitor interval [n]
 
 Display plugin configuration. The password attribute is skipped.
 
-  !monitor show config
+    !monitor show config
 
 Poll the IMAP mailbox
 
-	!monitor test
+    !monitor test
 
 Example Configuration
 ---------------------
