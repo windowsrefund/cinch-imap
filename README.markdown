@@ -64,7 +64,9 @@ Poll the IMAP mailbox
 Example Configuration
 ---------------------
 
-<pre ruby>
+mybot.rb
+
+<pre >
 require 'cinch'
 require 'cinch/plugins/imap'
 
@@ -96,7 +98,7 @@ bot.start
 Now, run your bot.
 
 ```bash
-  ruby mybot.rb
+$ ruby mybot.rb
 ```
 
 WARNING
