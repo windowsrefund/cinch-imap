@@ -9,29 +9,32 @@ Installation
   $ gem install cinch-imap
 
 
-### Required Configuration
+Required Configuration
+----------------------
 
-#### :host
+####:host
 The IMAP server
-### :user
+#### :user
 The user id
-### :password
+#### :password
 The password
 
-## Optional Configuration
+Optional Configuration
+----------------------
 
-### :port
-The IMAP port. Default is 143.
-### :ssl
-Use SSL? Default is false.
-### :interval
-Number of seconds between polling. Default is 300.
-### :mark_as_read
-Sets the IMAP :Seen flag on polled messages. Default is true.
-### :autostart
-The bot will start polling when it joins the channel
+* The IMAP port. Default is 143.
+  :port
+* Use SSL? Default is false.
+  :ssl
+* Number of seconds between polling. Default is 300.
+  :interval
+* Sets the IMAP :Seen flag on polled messages. Default is true.
+  :mark_as_read
+* The bot will start polling when it joins the channel
+  :autostart
 
-## Commands
+Commands
+--------
 
 Enable/disable IMAP polling
   !monitor on/off/start/stop
