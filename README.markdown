@@ -39,7 +39,9 @@ Commands
 
 Enable/disable IMAP polling
 
-  !monitor on/off/start/stop
+```
+!monitor on/off/start/stop
+```
 
 Display status information to the channel
 
